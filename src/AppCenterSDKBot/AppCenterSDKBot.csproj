@@ -13,5 +13,13 @@
   <ItemGroup>
     <PackageReference Include="Amazon.Lambda.Core" Version="2.1.0" />
     <PackageReference Include="Amazon.Lambda.Serialization.SystemTextJson" Version="2.3.0" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.9.67" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.1.213" />
+    <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.2.105" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AWSSDK.S3" />
+    <None Remove="AWSSDK.SecurityToken" />
+    <None Remove="AWSSDK.SecretsManager" />
   </ItemGroup>
 </Project>
